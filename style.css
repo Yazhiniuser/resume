@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-size: 14px;
+    margin: 0;
+    flex: 1;
+}
+
+.progress {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 6px; /* smaller height */
+    width: 80px;  /* small fixed width */
+    margin-left: 10px;
+    flex-shrink: 0;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #0066cc; /* blue */
+    width: 0%;
+    border-radius: 5px;
+    transition: width 0.5s ease-in-out;
+}
+
+
+.container {
+    max-width: 900px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.header h2 {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 14px;
+    color: #555;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-info a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact-info a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.left-column a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.left-column a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.left-column section ul {
+    list-style: none; 
+    padding-left: 0;  
+    margin-bottom: 10px;
+}
+
+.left-column section ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.left-column a {
+    color: inherit; 
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.left-column a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.left-column {
+    flex: 1;
+    padding-right: 20px;
+    border-right: 2px solid #ccc;
+}
+
+.right-column {
+    flex: 2;
+    padding-left: 20px;
+}
+
+
+
+section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+ul {
+    list-style: disc inside;
+    margin-bottom: 10px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
